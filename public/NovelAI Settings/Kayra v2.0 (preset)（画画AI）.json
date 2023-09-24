@@ -1,0 +1,80 @@
+{
+    "temperature": "1.10",
+    "repetition_penalty": "1.80",
+    "repetition_penalty_range": "2048",
+    "tail_free_sampling": "0.915",
+    "top_p": "1.00",
+    "min_length": "120",
+    "preamble": "[ Genre: (romance, drama, thriller and etc); Tags: (size kink, violence, magic and etc); Scenario: (anime, medieval, Harry Potter and etc); Style: complex, sensory, visceral, immersive roleplay text game, gradual narration pace ]",
+    "prefix": "theme_textadventure",
+    "cfg_uc": "Impersonate {{user}}. Decide what {{user}} do or say. Write lines and actions for {{user}}. Phrase and sentences repetition. Looping. Bad writing. Summarize. Paraphrasing.",
+    "banned_tokens": "/\n\\\n[\n]\n)\n(\n#",
+    "order": [
+        3,
+        0,
+        6,
+        8,
+        1,
+        5,
+        2,
+        4
+    ],
+    "logit_bias": [
+        {
+            "id": "77024974-de69-4649-afd9-9400005e791c",
+            "text": "{{user}}:",
+            "value": -10
+        },
+        {
+            "id": "4a2abf4f-37e8-49ed-845a-8b91bf0fab91",
+            "text": "{{char}}:",
+            "value": -10
+        },
+        {
+            "id": "994977f1-8d6b-40cb-bf54-73dd2348bb7f",
+            "text": "\\n{{char}}:",
+            "value": -10
+        },
+        {
+            "id": "58de36a2-d00b-4399-a90f-f7bae03e5a3c",
+            "text": "\\n{{user}}:",
+            "value": -10
+        },
+        {
+            "id": "1660e339-074c-4281-bbd6-21164ab7b0e9",
+            "text": "(",
+            "value": -50
+        },
+        {
+            "id": "d7d6176c-54f1-4fab-bf43-fd839977bcb9",
+            "text": ")",
+            "value": -50
+        },
+        {
+            "id": "155d51ac-e43b-4beb-a391-1946d8529f27",
+            "text": "#",
+            "value": -50
+        },
+        {
+            "id": "cdd73c49-508f-4bad-bc85-81eea811d61e",
+            "text": "Response:",
+            "value": -50
+        },
+        {
+            "id": "ca31b6e1-288d-429e-bc08-8cc2cad60f90",
+            "text": "Instruction:",
+            "value": -50
+        },
+        {
+            "id": "4c682e7c-659d-4ab6-bba8-096298738776",
+            "text": "Instructions:",
+            "value": -50
+        }
+    ],
+    "phrase_rep_pen": "very_aggressive",
+    "cfg_scale": "1.50",
+    "mirostat_lr": "0.10",
+    "mirostat_tau": "5.00",
+    "genamt": 180,
+    "max_length": 7800
+}

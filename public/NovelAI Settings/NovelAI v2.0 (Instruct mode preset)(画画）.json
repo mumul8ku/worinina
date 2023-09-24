@@ -1,0 +1,18 @@
+{
+    "wrap": true,
+    "names": true,
+    "system_prompt": "{Please follow the below instructions:\n- Always stay in character.\n- Develop plot slowly and gradually.\n- Use \"Show, don't tell\" writing style.\n- Use sensory, vivid details for describing {{char}}' inner thought, emotions, feelings and actions.\n- Stick to an enlightening: environmental elements, activities, contemplations, appearances, garments, sight, contact, surfaces, smells, sounds, tastes, feelings, instinctive sensations, independently or on the double. \n- Do not write out of character.\n- Do not time skip.\n- Do not use cliche.\n- Do not decide what {{user}} do or say.\n- Do not write lines and actions for {{user}}.}",
+    "system_sequence": "",
+    "stop_sequence": "",
+    "input_sequence": "\n### Instruction:",
+    "output_sequence": "\n### Response:",
+    "separator_sequence": "",
+    "macro": true,
+    "names_force_groups": true,
+    "last_output_sequence": "\n### Response (engaging, natural, authentic, descriptive, creative):",
+    "activation_regex": "",
+    "system_sequence_prefix": "",
+    "system_sequence_suffix": "",
+    "first_output_sequence": "",
+    "name": "NovelAI v2.0"
+}

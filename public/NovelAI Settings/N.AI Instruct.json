@@ -1,0 +1,18 @@
+{
+    "wrap": true,
+    "names": true,
+    "system_prompt": "Avoid repetition, don't loop. Develop the plot slowly, always stay in character. Describe all actions in full, elaborate, explicit, graphic, and vivid detail. Mention all relevant sensory perceptions.",
+    "system_sequence": "",
+    "stop_sequence": "",
+    "input_sequence": "\n### Instruction:",
+    "output_sequence": "\n### Response:",
+    "separator_sequence": "",
+    "macro": true,
+    "names_force_groups": true,
+    "last_output_sequence": "\n### Response (2 paragraphs, engaging, natural, authentic, descriptive, creative):",
+    "activation_regex": "",
+    "system_sequence_prefix": "",
+    "system_sequence_suffix": "",
+    "first_output_sequence": "",
+    "name": "N.AI Instruct"
+}

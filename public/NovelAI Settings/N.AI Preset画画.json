@@ -1,0 +1,85 @@
+{
+    "temperature": 1.35,
+    "repetition_penalty": 2.8,
+    "repetition_penalty_range": 2048,
+    "repetition_penalty_slope": 0.02,
+    "repetition_penalty_frequency": 0.02,
+    "repetition_penalty_presence": 0,
+    "tail_free_sampling": 0.915,
+    "top_k": 15,
+    "top_p": 0.85,
+    "top_a": 0.1,
+    "min_length": 1,
+    "preamble": "[ Writing style: gradual slow narration, dynamic actions, vivid emotional descriptions; Scenario: pirates, fantasy, pirate era; Style: complex, sensory, visceral, immersive roleplay text game, natural narration pace ]",
+    "prefix": "theme_textadventure",
+    "cfg_uc": "{Write as {{user}}. Write what {{user}} says/does/feels/thinks. Impersonating {{user}}. Bad writing. Summarize.}",
+    "banned_tokens": "Instructions\nInstruction\n###\n##\n#\nInput\nInpu\n>\n<",
+    "order": [
+        2,
+        3,
+        0,
+        4,
+        1
+    ],
+    "logit_bias": [
+        {
+            "id": "a4658c14-4c11-47b4-9e17-5d1dad8782e1",
+            "text": "Input:",
+            "value": -100
+        },
+        {
+            "id": "ea636e0a-ce08-43a3-8815-60d0cf25a0e1",
+            "text": " Input:",
+            "value": -100
+        },
+        {
+            "id": "28b51021-4580-454c-b8fe-8e81fbce5a49",
+            "text": "Input",
+            "value": -100
+        },
+        {
+            "id": "01985bb2-a603-46e6-8d5b-f93abd1b6d3f",
+            "text": "Inpu",
+            "value": -100
+        },
+        {
+            "id": "1c006160-b1bf-463b-a495-884538ee89c5",
+            "text": "###",
+            "value": -100
+        },
+        {
+            "id": "7202ae80-8484-4995-a4b4-d40c9058be61",
+            "text": "#",
+            "value": -100
+        },
+        {
+            "id": "567ff7b3-f08a-453b-bb0c-466b4272821c",
+            "text": "Instruction",
+            "value": -100
+        },
+        {
+            "id": "d2897dee-928b-4f68-bb00-e1d9e460b419",
+            "text": "Response",
+            "value": -100
+        },
+        {
+            "id": "9e8fef95-9a98-4f2f-93c3-8143ae04d6a9",
+            "text": ">",
+            "value": -100
+        },
+        {
+            "id": "fac068f2-4111-45ef-9020-2899bdf33e90",
+            "text": "<",
+            "value": -100
+        },
+        {
+            "id": "aadd7edf-2f6d-4b35-b1c2-a97643ce7c5e",
+            "text": "####",
+            "value": -100
+        }
+    ],
+    "phrase_rep_pen": "aggressive",
+    "cfg_scale": "2.00",
+    "genamt": 300,
+    "max_length": 8000
+}
