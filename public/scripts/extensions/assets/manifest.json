@@ -1,11 +1,11 @@
 {
-    "display_name": "Assets",
-    "loading_order": 15,
+    "display_name": "Deal Status",
+    "loading_order": 20,
     "requires": [],
     "optional": [],
     "js": "index.js",
     "css": "style.css",
-    "author": "Keij#6799",
-    "version": "0.1.0",
+    "author": "TA",
+    "version": "1.0.0",
     "homePage": "https://github.com/SillyTavern/SillyTavern"
 }
